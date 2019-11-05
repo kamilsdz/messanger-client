@@ -1,7 +1,7 @@
 package messager
 
-import messager.services.{Notifier}
+import messager.services.{Listener}
 
 object Main extends App {
-  Notifier.call()
+  Listener.call()
 }

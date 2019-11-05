@@ -1,6 +1,6 @@
 package messager.services
 
-object Notifier extends App {
+object Listener extends App {
   def call(): Unit = {
     println("Hello")
   }
